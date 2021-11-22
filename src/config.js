@@ -63,7 +63,7 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    limit: 50,
    eror: "Sepertinya Eror",
    waits: "Sedang di proses",
-   butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
+   butmag: 'https://telegra.ph/file/8279e90c6d8abdc46fc41.jpg',
    packname: "EXZ-BOT-OFFICIAL",
    author: '@ekuzikaa_18 <3',
     setting: {
