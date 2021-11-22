@@ -30,7 +30,7 @@ global.APIKeys = { // APIKey nya disini
 
 userbot = {
 Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
- owner:  [ "6281261324817", "6281916259786", "6281325994066", "62857420881846","628812904283","6282328303332", "62822980698995", "436504463151666", "62823283033323" ],
+ owner:  [ "6289618777587", "6289618777587", "0", "0","0" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
    wait: "tunggu sedang di proses...",
@@ -47,25 +47,25 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    },
    error: {
    Iv: "Link yang kamu berikan tidak valid",
-   tombol: "Silahkam Masukkan prameter on/off",
+   tombol: "Silahkam Masukkan parameter on/off",
    forget: "Silahkan Masukkan Teks Anda."
    },
    simple: {
-   expiredQr: "[!] Scan Kode QR Diatas, Expired dalam 30 detik",
+   expiredQr: "[ ! ] Scan Kode QR Diatas, Expired dalam 30 detik",
    credentials: "credentials updated!",
    opendocs: "open docs is complete!", 
    readBaileys: "berhasil masuk ke dalam baileys",
    connecting: "Menghubungkan",
    refresh: "Berhasil Perbarui Jaringan\n"
    },
-   prefix: ["/"],
+   prefix: ["."],
    gexp: 50,
-   limit: 100,
+   limit: 50,
    eror: "Sepertinya Eror",
    waits: "Sedang di proses",
    butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
-   packname: "RIXLE-BOT-OFFICIAL",
-   author: '@_fearTeam',
+   packname: "EXZ-BOT-OFFICIAL",
+   author: '@ekuzikaa_18 <3',
     setting: {
     admin: "only admin",
     group: "only group",
