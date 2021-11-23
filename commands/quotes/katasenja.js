@@ -13,7 +13,7 @@ utilisation: userbot.prefix + "katasenja",
 async execute(m) {
  let { conn, text } = data
 
- let tolol = await kntl('https://zenzapi.xyz/api/motivasi?apikey=exz123')
+ let tolol = await kntl('https://zenzapi.xyz/api/katasenja?apikey=exz123')
  let dot = await tolol.json()
  let json = dot.result.message
 
