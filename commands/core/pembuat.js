@@ -15,7 +15,7 @@ ownerContact = ['6289604123422', '6289604123422','0','0','0','0']
   for (let i of ownerContact.map(v => v + '@s.whatsapp.net')) {
  vname = conn.contacts[i] != undefined ? conn.contacts[i].vname || conn.contacts[i].notify : undefined
   conarray.push({
-"displayName": 'EkuziQ',
+"displayName": 'Rizz',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${conn.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
