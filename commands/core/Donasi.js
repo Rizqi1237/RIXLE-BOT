@@ -2,9 +2,8 @@ const fetch = require('node-fetch')
 module.exports = {
 name: ["donasi"],
 type: ["default"],
-useLimit: true,
 description: "mendonasikan uang anda ke creator",
-utilisation: userbot.prefix + "creator",
+utilisation: userbot.prefix + "donasi",
 
 async execute(m) {
 let { conn } = data
