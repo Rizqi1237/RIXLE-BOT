@@ -2,7 +2,7 @@ let { MessageType }= require('@adiwajshing/baileys')
 let { contactsArray } = MessageType
 
 module.exports = {
-name: ["creator"],
+name: ["creator","owner"],
 type: ["default"],
 useLimit: true,
 description: "menampilkan daftar pembuat bot",
@@ -11,7 +11,7 @@ utilisation: userbot.prefix + "creator",
 async execute(m) {
 let { conn } = data
    conarray = []
-ownerContact = ['6289618777587', '6289618777587','0','0','0','0']
+ownerContact = ['6289604123422', '6289604123422','0','0','0','0']
   for (let i of ownerContact.map(v => v + '@s.whatsapp.net')) {
  vname = conn.contacts[i] != undefined ? conn.contacts[i].vname || conn.contacts[i].notify : undefined
   conarray.push({
