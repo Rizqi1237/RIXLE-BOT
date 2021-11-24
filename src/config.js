@@ -30,7 +30,7 @@ global.APIKeys = { // APIKey nya disini
 
 userbot = {
 Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
- owner:  [ "6289618777587", "6289618777587", "0", "0","0" ],
+ owner:  [ "6289604123422", "6289604123422", "0", "0","0" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
    wait: "tunggu sedang di proses...",
@@ -64,8 +64,8 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    eror: "Sepertinya Eror",
    waits: "Sedang di proses",
    butmag: 'https://telegra.ph/file/8279e90c6d8abdc46fc41.jpg',
-   packname: "EXZ-BOT-OFFICIAL",
-   author: '@ekuzikaa_18 <3',
+   packname: "RizzBotzz",
+   author: '@Im Rizz',
     setting: {
     admin: "only admin",
     group: "only group",
