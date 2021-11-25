@@ -1,3 +1,0 @@
-worker :
-      Build :
-           Dockerfile
